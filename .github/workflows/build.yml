@@ -1,59 +1,68 @@
 name: Build
 
-# https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#concurrency
-concurrency: 
+concurrency:
   group: "build"
   cancel-in-progress: true
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      # choose your default branch
       - master
       - main
     paths-ignore:
       - '*.md'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
+      - name: Checkout source
+        uses: actions/checkout@v4
         with:
           path: "src"
 
-      - name: Checkout builds
-        uses: actions/checkout@master
+      - name: Checkout builds branch
+        uses: actions/checkout@v4
         with:
           ref: "builds"
           path: "builds"
-      
-      - name: Clean old builds
-        run: rm -f $GITHUB_WORKSPACE/builds/*.cs3
+          token: ${{ secrets.PAT_TOKEN || github.token }}
 
-      - name: Setup JDK 17
-        uses: actions/setup-java@v1
+      - name: Clean old builds
+        run: |
+          cd $GITHUB_WORKSPACE/builds
+          cp repo.json /tmp/repo.json 2>/dev/null || true
+          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+
+      - name: Setup JDK 21
+        uses: actions/setup-java@v4
         with:
-          java-version: 17
+          distribution: temurin
+          java-version: 21
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v4
-
+        with:
+          packages: 'platform-tools'
 
       - name: Build Plugins
         run: |
           cd $GITHUB_WORKSPACE/src
           chmod +x gradlew
           ./gradlew make makePluginsJson
-          cp **/build/*.cs3 $GITHUB_WORKSPACE/builds
-          cp build/plugins.json $GITHUB_WORKSPACE/builds
+          cp **/build/*.cs3 $GITHUB_WORKSPACE/builds/
+          cp build/plugins.json $GITHUB_WORKSPACE/builds/
+          cp /tmp/repo.json $GITHUB_WORKSPACE/builds/repo.json 2>/dev/null || true
 
       - name: Push builds
         run: |
           cd $GITHUB_WORKSPACE/builds
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add .
-          git commit --amend -m "Build $GITHUB_SHA" || exit 0   # do not error if nothing to commit
+          git config --local user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
+          git config --local user.name "${GITHUB_ACTOR}"
+          git add -A
+          git commit --amend --reset-author -m "Build $GITHUB_SHA" || exit 0
           git push --force
