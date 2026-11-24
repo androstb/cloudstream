@@ -107,15 +107,17 @@ class Animasu : MainAPI() {
             val html = script.html()
             Regex("""(?:file|src|source)['":\s]+["'](https?://[^"']+\.(?:m3u8|mp4|mkv)[^"']*)["']""")
                 .findAll(html).forEach { match ->
-                    val videoUrl = match.groupValues[1]
+                    val videoUrl = match.groupValues.getOrNull(1) ?: return@forEach
                     loadExtractor(videoUrl, data, subtitleCallback, callback)
                 }
             Regex("""["'](https?://(?:embed\.|player\.|stream\.)[^"']+)["']""")
                 .findAll(html).forEach { match ->
-                    loadExtractor(match.groupValues[1], data, subtitleCallback, callback)
+                    val embedUrl = match.groupValues.getOrNull(1) ?: return@forEach
+                    loadExtractor(embedUrl, data, subtitleCallback, callback)
                 }
         }
 
         return true
     }
 }
+
