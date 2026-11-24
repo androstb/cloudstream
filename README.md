@@ -10,7 +10,7 @@
 [![Telegram](https://img.shields.io/badge/Telegram-Group-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+MEVNxO_1OjM0Mjll)
 
 <br>
-<img src="https://raw.githubusercontent.com/HatsuneMikuUwU/AnimeX/refs/heads/master/banner.png" alt="Hatsune Repo Banner" width="100%">
+<img src="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/banner.png" alt="Hatsune Repo Banner" width="100%">
 
 </div>
 
