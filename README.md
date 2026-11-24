@@ -1,58 +1,94 @@
-**⚠️ This is currently under development, dont use it yet if you're not comfortable with constantly merging new changes**
+<div align="center">
 
-# `Cloudstream3 Plugin Repo Template`
+# 🩵 Hatsune Repo for CloudStream 🩵
 
-Template for a [Cloudstream3](https://github.com/recloudstream) plugin repo
+**A curated collection of CloudStream extensions for anime and donghua, with Indonesian subtitles 🇮🇩**
 
-**⚠️ Make sure you check "Include all branches" when using this template**
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
+[![Commits](https://img.shields.io/github/commit-activity/m/HatsuneMikuUwU/AnimeX?style=for-the-badge&logo=github)](https://github.com/HatsuneMikuUwU/AnimeX/commits/master)
+[![Telegram](https://img.shields.io/badge/Telegram-Group-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+MEVNxO_1OjM0Mjll)
 
- 
-## Getting started  with writing your first plugin
+<br>
+<img src="https://raw.githubusercontent.com/HatsuneMikuUwU/AnimeX/refs/heads/master/banner.png" alt="Hatsune Repo Banner" width="100%">
 
-This template includes 1 example plugin.
+</div>
 
-1. Open the root build.gradle.kts, read the comments and replace all the placeholders
-2. Familiarize yourself with the project structure. Most files are commented
-3. Build or deploy your first plugin using:
-   - Windows: `.\gradlew.bat ExampleProvider:make` or `.\gradlew.bat ExampleProvider:deployWithAdb`
-   - Linux & Mac: `./gradlew ExampleProvider:make` or `./gradlew ExampleProvider:deployWithAdb`
+---
 
+## 📦 Available Extensions
 
-## Granting All Files Access on Newer Android Devices
+| No. | Extension | Region | Content Type |
+| :--- | :--- | :--- | :--- |
+| 1 | **Alqanime** | 🇮🇩 ID | 🌸 Anime & 🐉 Donghua |
+| 2 | **Anichin** | 🇮🇩 ID | 🐉 Donghua |
+| 3 | **Animasu** | 🇮🇩 ID | 🌸 Anime & 🐉 Donghua |
+| 4 | **Animein (API)** | 🇮🇩 ID | 🌸 Anime |
+| 5 | **AnimeSail** | 🇮🇩 ID | 🌸 Anime & 🐉 Donghua |
+| 6 | **Animexin** | 🇮🇩 ID | 🐉 Donghua |
+| 7 | **AnoBoy** | 🇮🇩 ID | 🌸 Anime |
+| 8 | **Donghub** | 🇮🇩 ID | 🐉 Donghua |
+| 9 | **Dubbindo** | 🇮🇩 ID | 🌸 Anime, 🎬 Movies & Series |
+| 10 | **Kuramanime** | 🇮🇩 ID | 🌸 Anime & 🐉 Donghua |
+| 11 | **Kuronime** | 🇮🇩 ID | 🌸 Anime |
+| 12 | **NekoPoi** | 🇮🇩 ID | 🔞 NSFW & 💕 Hentai |
+| 13 | **Nimegami** | 🇮🇩 ID | 🌸 Anime |
+| 14 | **NontonAnimeID** | 🇮🇩 ID | 🌸 Anime |
+| 15 | **OtakuDesu** | 🇮🇩 ID | 🌸 Anime |
+| 16 | **Samehadaku** | 🇮🇩 ID | 🌸 Anime |
+| 17 | **Winbu** | 🇮🇩 ID | 🌸 Anime, 🐉 Donghua, 🎬 Movies & Series |
 
-For local plugin testing, you need to grant the app "All Files Access" on newer Android devices (Android 11 and above). Here’s how to do it:
+> [!WARNING]
+> **Disclaimer & Legal Notice**
+> 
+> We hereby issue this notice to clarify that these extensions function similarly to a standard web browser by fetching video files from the internet.
+> - **No content is hosted** by this repository or the Cloudstream 3 application.
+> - Any content accessed is hosted by third-party websites.
+> - Users are solely responsible for their usage and must comply with their local laws.
+> 
+> If you believe content is violating copyright laws, please contact the **actual file hosts**, not the developers of this repository or the Cloudstream app.
 
-### Using ADB
+---
 
-* `adb shell appops set --uid PACKAGE_NAME MANAGE_EXTERNAL_STORAGE allow`
-* Replace `PACKAGE_NAME` with the name of the package for the Cloudstream3 version you are using:
-   - debug: `com.lagradost.cloudstream3.prerelease.debug`
-   - prerelease: `com.lagradost.cloudstream3.prerelease`
-   - stable: `com.lagradost.cloudstream3`
+## 🚀 How to Install
 
-### Manually
+### Option 1: 1-Click Install (Mobile)
+If you are viewing this page on an Android device with CloudStream installed, simply click the button below to add the repository automatically:
 
-1. **Open Settings**: Go to your device’s Settings menu.
+<a href="cloudstreamrepo://raw.githubusercontent.com/HatsuneMikuUwU/AnimeX/refs/heads/master/repo.json">
+  <img src="https://img.shields.io/badge/⚡_Direct_Install_Repo-CloudStream-005FFF?style=for-the-badge" alt="Direct Install">
+</a>
 
-2. **Navigate to Special Access**:
-   - Tap on "Apps & notifications" or "Apps".
-   - Select "Special app access" or "Special access".
+### Option 2: Manual Install
+1. **Download CloudStream** If you don't have it installed, get the latest [Pre-release version here](https://github.com/recloudstream/cloudstream/releases/tag/pre-release).
+2. **Open Settings** Navigate to `Settings` > `Extensions` within the app.
+3. **Add Repository** Tap on **Add Repository** and paste the following URL:
+```text
+https://raw.githubusercontent.com/HatsuneMikuUwU/AnimeX/refs/heads/master/repo.json
+```
+4. ​**Install Extensions** Tap **Add**. The available extensions will now appear in your list. Select the ones you want and tap **Install** ✅.
 
-3. **Select All Files Access**:
-   - Tap on "All files access".
-   - It may be under the three vertical dots menu towards the top of the screen.
+---
 
-4. **Grant Access to the App**: Find the app in the list and tap on it to toggle it, if it is not already enabled.
+## ​📜 License
 
-6. **Restart the App**: Close and reopen the app to apply the changes.
+[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
+These extensions are **free software**: you can use, study, share, and modify them as you wish.
 
-## License
+They are distributed under the terms of the [GNU General Public License](https://www.gnu.org/licenses/gpl.html) version 3 or later, published by the Free Software Foundation.
 
-Everything in this repo is released into the public domain. You may use it however you want with no conditions whatsoever
+---
 
+## ​🙌 Credits
 
-## Attribution
+This project is built upon the great work of the following open-source communities:  
 
-This template as well as the gradle plugin and the whole plugin system is **heavily** based on [Aliucord](https://github.com/Aliucord).
-*Go use it, it's a great mobile discord client mod!*
+* ​✨ [Hexated](https://github.com/hexated/cloudstream-extensions-hexated)
+* ​✨ [Phisher98](https://github.com/phisher98/cloudstream-extensions-phisher)
+
+---
+
+​<div align="center">
+<b>Thank You for using Hatsune Repo! 🩵</b>
+</div>
