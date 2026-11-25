@@ -16,7 +16,7 @@ import java.util.Base64
 
 class IndoTV : MainAPI() {
     override var lang = "id"
-    override var mainUrl = "https://raw.githubusercontent.com/TeKuma25/Koleksi-IPTV/main/id.m3u"
+    override var mainUrl = "https://raw.githubusercontent.com/androstb/cloudstream/master/id.m3u"
     override var name = "Indo IPTV"
     override val hasMainPage = true
     override val hasChromecastSupport = true
