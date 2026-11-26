@@ -8,7 +8,7 @@ https://live.i-news.tv/hls/stream.m3u8
 #EXTINF-1 tvg-id="Gtv.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Gtv.png" group-title="Nasional",Gtv
 https://live.i-news.tv/hls/stream.m3u8
 #EXTINF-1 tvg-id="TransTV.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/TransTv.png" group-title="Nasional",TransTV
-https://live.i-news.tv/hls/stream.m3u8
+https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF-1 tvg-id="Indosiar.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Indosiar.png" group-title="Nasional",Indosiar
 https://live.i-news.tv/hls/stream.m3u8
 #EXTINF-1 tvg-id="Inews.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Inews.png" group-title="Nasional",Inews
@@ -16,26 +16,27 @@ https://live.i-news.tv/hls/stream.m3u8
 #EXTINF-1 tvg-id="Sctv.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Sctv.png" group-title="Nasional",Sctv
 https://live.i-news.tv/hls/stream.m3u8
 #EXTINF-1 tvg-id="Trans7.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Trans7.png" group-title="Nasional",Trans 7
-https://live.i-news.tv/hls/stream.m3u8
+http://119.82.250.109:8080/nl.m3u8?id=1002
 
 #EXTINF-1 tvg-id="Antv.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/AnTv.png" group-title="Nasional",AnTV
-https://live.i-news.tv/hls/stream.m3u8
+https://dsgtq5sngxkde.cloudfront.net/antv/index.m3u8
 #EXTINF-1 tvg-id="Rtv.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/RTv.png" group-title="Nasional",RTv
-https://live.i-news.tv/hls/stream.m3u8
+https://dsgtq5sngxkde.cloudfront.net/rtv/index.m3u8
 #EXTINF-1 tvg-id="KompasTv.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/KompasTv.png" group-title="Nasional",Kompas Tv
-https://live.i-news.tv/hls/stream.m3u8
+https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 #EXTINF-1 tvg-id="Bntv.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/BnTv.png" group-title="Nasional",BnTv
-https://live.i-news.tv/hls/stream.m3u8
+http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
 #EXTINF-1 tvg-id="Cnn.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Cnn.png" group-title="Nasional",Cnn
-https://live.i-news.tv/hls/stream.m3u8
+https://video.detik.com/livecnn/smil:cnntv/playlist.m3u8
 #EXTINF-1 tvg-id="Beritasatu.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Beritasatu.png" group-title="Nasional",Beritasatu
-https://live.i-news.tv/hls/stream.m3u8
-#EXTINF-1 tvg-id="Moji.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Moji.png" group-title="Nasional",Moji
-https://live.i-news.tv/hls/stream.m3u8
+https://dsgtq5sngxkde.cloudfront.net/btv/index.m3u8
+#EXTINF-1 tvg-id="Moji.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/moji.png" group-title="Nasional",Moji
+https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
 #EXTINF-1 tvg-id="Jtv.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Jtv.png" group-title="Nasional",Jtv
-https://live.i-news.tv/hls/stream.m3u8
+http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8
 #EXTINF-1 tvg-id="Sindo.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/sindo.png" group-title="Nasional",Sindo
-https://live.i-news.tv/hls/stream.m3u8
+https://dsgtq5sngxkde.cloudfront.net/sindonews/index.m3u8
+
 # Kids
 #EXTINF-1 tvg-id="ZarokTV.iq" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Kids",Zarok TV Sorani (720p)
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
