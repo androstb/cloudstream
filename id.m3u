@@ -1,7 +1,7 @@
 #EXTM3U
 
 # Nasional
-#EXTINF-1 tvg-id="MetroTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png" group-title="Nasional",MetroTV
+#EXTINF-1 tvg-id="MetroTV.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/MetroTV.png" group-title="Nasional",MetroTV
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
 
 # Kids
