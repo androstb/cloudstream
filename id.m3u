@@ -1,7 +1,13 @@
 #EXTM3U
 
 # Nasional
-#EXTINF-1 tvg-id="MetroTV.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/MetroTV.png" group-title="Nasional",MetroTV
+#EXTINF-1 tvg-id="Rcti.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Rcti.png" group-title="Nasional",MetroTV
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+#EXTINF-1 tvg-id="Mnc.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Mnc.png" group-title="Nasional",MetroTV
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+#EXTINF-1 tvg-id="Gtv.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/Gtv.png" group-title="Nasional",MetroTV
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+#EXTINF-1 tvg-id="TransTV.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/TransTv.png" group-title="Nasional",MetroTV
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
 
 # Kids
