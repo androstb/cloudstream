@@ -2,7 +2,7 @@
 
 # Nasional
 #EXTINF-1 tvg-id="MetroTV.id" tvg-logo="https://raw.githubusercontent.com/androstb/cloudstream/refs/heads/master/img/MetroTV.png" group-title="Nasional",MetroTV
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
+https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
 
 # Kids
 #EXTINF-1 tvg-id="ZarokTV.iq" tvg-logo="https://i.imgur.com/o0eevnb.png" group-title="Kids",Zarok TV Sorani (720p)
