@@ -1,0 +1,272 @@
+[
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://animasuid.com&sz=%size%",
+        "fileHash": "sha256-12047f56c1c063d7f2c532b3b28ef10974d1faa68c601b7ae8a93516753a5f4f",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 14530,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "version": 2,
+        "internalName": "Animasu",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/Animasu.cs3",
+        "name": "Animasu"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://ca3d.site&sz=%size%",
+        "fileHash": "sha256-3b69f6ceab236fa5050a0442681fc9f175792979bb9d659999bef7976943e1d9",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 30004,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie"
+        ],
+        "version": 1,
+        "internalName": "CA3D",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/CA3D.cs3",
+        "name": "CA3D"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://donghive.vip&sz=%size%",
+        "fileHash": "sha256-d24e391657a6c6bb95dd54c2d6d98ec996446fc520f392fecd2ffcbc9765646a",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 25329,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie"
+        ],
+        "version": 4,
+        "internalName": "Donghub",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/Donghub.cs3",
+        "name": "Donghub"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://gfymultimedx.online&sz=%size%",
+        "fileHash": "sha256-202f649feef476cc653d87a014019a8939e5d3963395b03f36f710f9712af5dd",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 23791,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "GfyMultimedx",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/GfyMultimedx.cs3",
+        "name": "GfyMultimedx"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://z3.idlixku.com&sz=%size%",
+        "fileHash": "sha256-72a7b5114873d9f3d65153b7d0017d96aa5f8c267e4ebf2731d74d35d9d9ac0b",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 64828,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 10,
+        "internalName": "Idlix",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/Idlix.cs3",
+        "name": "Idlix"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=%size%",
+        "fileHash": "sha256-e1b3bebccf81b4ceb547d8a96f4cff73cfa395472b800b43913ba7161d246ade",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 23307,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "androstb"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 7,
+        "internalName": "IndoTV",
+        "description": "Indo IPTV",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/IndoTV.cs3",
+        "name": "IndoTV"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://kuramanime.ink&sz=%size%",
+        "fileHash": "sha256-85737e68d7e2240f5fd04471ce5c2bf4fdbb360e2c15db6c48b6ac6a37d19c85",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 25086,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "version": 5,
+        "internalName": "Kuramanime",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/Kuramanime.cs3",
+        "name": "Kuramanime"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://server-1.layar.asia&sz=%size%",
+        "fileHash": "sha256-849a9d8bc12e81cb70535f1f3915eb1636d3b7337330a4b9c8a14912051ee6d1",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 40120,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "version": 2,
+        "internalName": "LayarAsia",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/LayarAsia.cs3",
+        "name": "LayarAsia"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://themoviebox.org&sz=%size%",
+        "fileHash": "sha256-48d66adb871ed31253ca856084763a15a1e5b730c0a0e839faaf9aa878727333",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 37208,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "Anime",
+            "Movie",
+            "TvSeries"
+        ],
+        "version": 4,
+        "internalName": "MovieBox",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/MovieBox.cs3",
+        "name": "MovieBox"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://oploverz.ch&sz=%size%",
+        "fileHash": "sha256-198c5f15f17ffd19adccba23d567872578c270399e6bad56c085c20247340b4e",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 33946,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "version": 3,
+        "internalName": "Oploverz",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/Oploverz.cs3",
+        "name": "Oploverz"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://x6.sokuja.uk&sz=%size%",
+        "fileHash": "sha256-325ec7323b8c99b74f865eb48b24bee2383626402be0ae9a2faf69f2f9965549",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 25244,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "version": 4,
+        "internalName": "Sokuja",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/Sokuja.cs3",
+        "name": "Sokuja"
+    },
+    {
+        "iconUrl": "https://winbu.org/wp-content/uploads/2025/04/file-0000000068a051f6aed60f781c75581b-conversation-id-67ef899f-e0f8-8011-8643-02848517c045-message-i-1-e1744432620825.png",
+        "fileHash": "sha256-b69ba847158fcc0befb5a8f3eb2e6c9ca7305e49c13817a35dada8fb84427504",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 53631,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "Miku"
+        ],
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA",
+            "TvSeries"
+        ],
+        "version": 3,
+        "internalName": "Winbu",
+        "description": "Winbu \u2014 Streaming Anime & Series with Indonesian Subtitles",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/Winbu.cs3",
+        "name": "Winbu"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=https://yunshanid.site&sz=%size%",
+        "fileHash": "sha256-3f4b52856114117713c87001fc8e927414fd249377abe78cba0272c27ddf045f",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/androstb/cloudstream",
+        "fileSize": 26816,
+        "status": 1,
+        "language": "id",
+        "authors": [
+            "ExtremeBoy"
+        ],
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie"
+        ],
+        "version": 1,
+        "internalName": "YunshanID",
+        "url": "https://raw.githubusercontent.com/androstb/cloudstream/builds/YunshanID.cs3",
+        "name": "YunshanID"
+    }
+]
